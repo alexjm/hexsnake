@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "types": [
+            "node",
+            "three"
+        ],
+        "sourceMap": true,
+        "outDir": "dist",
+        "watch": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

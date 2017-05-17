@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <script src="node_modules/three/build/three.js"></script>
+    <script src="ext/system.js"></script>
+    <script>
+        System.defaultJSExtensions = true;
+        SystemJS.config({
+            baseURL: '/dist'
+        });
+
+        SystemJS.import('HexSnake.js');
+    </script>
+    <!--<script src="dist/HexSnake.js"></script>-->
+</head>
+<body>
+    <div id="game"></div>
+
+    <pre id="world"></pre>
+</body>
+</html>
